@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://26666d054f906bf7.mokky.dev',
+  baseURL: import.meta.env.VITE_BASE_URL,
 });
 
 // Interceptor to add auth token if existing
