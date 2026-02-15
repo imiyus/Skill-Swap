@@ -1,6 +1,6 @@
 // GROQ API Configuration
 const GROQ_TOKEN = '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';
-const API_URL = '/groq/openai/v1/chat/completions'; 
+const API_URL = 'https://api.groq.com/openai/v1/chat/completions'; 
 const MODEL = 'llama-3.3-70b-versatile'; 
 
 const BUSY_MSG = "ИИ временно занят, пожалуйста, подождите 10 секунд";
