@@ -1,5 +1,5 @@
 // GROQ API Configuration
-const GROQ_TOKEN = import.meta.env.VITE_GROQ_API_KEY;
+const GROQ_TOKEN = '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';
 const API_URL = '/groq/openai/v1/chat/completions'; 
 const MODEL = 'llama-3.3-70b-versatile'; 
 
