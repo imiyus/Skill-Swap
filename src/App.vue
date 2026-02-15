@@ -1,4 +1,5 @@
 <template>
+  <Analytics />
   <div class="min-h-screen bg-white selection:bg-accent/30 text-[#30364F] overflow-x-hidden">
     <!-- Navbar (Responsive Readable Pro) -->
     <header v-if="auth.isLoggedIn" class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-[#ACB4C4]/15 px-4 md:px-6 py-3 transition-all">
@@ -112,6 +113,7 @@ import { useAuthStore } from '@/stores/auth';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Zap, LogOut, Menu, X, LayoutDashboard, User } from 'lucide-vue-next';
+import { Analytics } from '@vercel/analytics/vue';
 
 const auth = useAuthStore();
 const router = useRouter();
