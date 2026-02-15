@@ -1,0 +1,110 @@
+{
+  "common": {
+    "start": "Start for free",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "generate": "Generate",
+    "loading": "Loading...",
+    "back": "Back",
+    "next": "Next",
+    "home": "Home",
+    "finish": "Finish",
+    "openai_error": "OpenAI Connection Error"
+  },
+  "welcome": {
+    "title": "Master any skill<br />with AI assistance.",
+    "subtitle": "Personalized courses created by Gemini 2.0 Flash specifically for your goals.",
+    "cta": "Start Learning",
+    "cabinet": "Go to Dashboard",
+    "steps": "5 Stages",
+    "curriculum": "Learning Path",
+    "mentor": "AI Neural Mentor",
+    "limitless": "Limitless Skills",
+    "limitless_stat": "∞ skills",
+    "skills": {
+      "python": "Python",
+      "design": "UI Design",
+      "marketing": "Marketing",
+      "photography": "Photography",
+      "cooking": "Cooking",
+      "chess": "Chess"
+    }
+  },
+  "auth": {
+    "welcome_back": "Welcome Back",
+    "subtitle_login": "Continue your journey to mastery",
+    "create_account": "Create Account",
+    "subtitle_register": "Join the Skillswap community",
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Full Name",
+    "no_account": "Don't have an account?",
+    "has_account": "Already have an account?",
+    "sign_in": "Sign In"
+  },
+  "onboarding": {
+    "title": "Which skill do you want<br />to master today?",
+    "subtitle": "Our AI mentor will create a unique 5-step learning plan for you.",
+    "placeholder": "e.g., Vue 3 Basics...",
+    "btn": "Launch",
+    "waiting": "Gemini is analyzing your dreams...",
+    "creating": "Creating a personalized route for:"
+  },
+  "dashboard": {
+    "empty_title": "Your shelf is empty",
+    "empty_desc": "Ready to acquire a new superpower? Let's build your first personalized course.",
+    "create_btn": "Create New Course",
+    "your_learning": "Your Learning",
+    "continue_desc": "Continue where you left off",
+    "reset_btn": "Reset Course",
+    "ai_curriculum": "AI Curriculum",
+    "xp": "Experience",
+    "streak": "Streak",
+    "progress": "Progress",
+    "days": "days",
+    "steps_count": "{count} Steps",
+    "steps_progress": "{current} / {total} steps"
+  },
+  "course": {
+    "route": "Route",
+    "back_dashboard": "Back to Dashboard",
+    "step": "Step",
+    "complete_step": "Complete Step",
+    "ai_mentor": "AI Mentor",
+    "online": "Online",
+    "chat_placeholder": "Ask: 'Explain simpler'",
+    "chat_intro": "Hi! I'm your AI mentor. If something seems complex, just ask and I'll explain it simply."
+  },
+  "profile": {
+    "stat_xp": "{xp} XP",
+    "stat_courses": "{count} courses completed",
+    "stat_steps": "{count} steps completed",
+    "achievements": "Achievements",
+    "badges_earned": "{earned} / {total} earned",
+    "activity": "Activity",
+    "learner_status": "Learner Status",
+    "status_desc": "You are on your way to becoming an AI Senior. Keep it up!",
+    "next_level": "Progress to Level {level}",
+    "logout_btn": "Log out",
+    "pro_learner": "Pro Learner"
+  },
+  "badges": {
+    "first_step": { "name": "First Step", "desc": "Complete your first learning stage" },
+    "ai_master": { "name": "AI Master", "desc": "Generate 5 unique courses" },
+    "streak_7": { "name": "7-Day Streak", "desc": "Login 7 days in a row" },
+    "finisher": { "name": "Finisher", "desc": "Complete one full course" },
+    "expert": { "name": "Expert", "desc": "Gain 5000 XP total" },
+    "defender": { "name": "Defender", "desc": "Use AI Mentor 10 times" }
+  },
+  "categories": {
+    "All": "All Categories",
+    "Programming": "Programming",
+    "Design": "Design",
+    "Languages": "Languages",
+    "Business": "Business",
+    "Art": "Art"
+  }
+}

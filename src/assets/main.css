@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #30364F;
+  --color-secondary: #ACB4C4;
+  --color-accent: #E1D9BC;
+  --color-bg-clean: #FFFFFF;
+}
+
+html,
+body,
+#app {
+  background-color: #FFFFFF !important;
+  @apply text-[#30364F] antialiased min-h-screen;
+  font-family: 'Inter', 'Geist', sans-serif;
+  font-size: 0.95rem;
+}
+
+body {
+  overflow-x: hidden !important;
+  @apply bg-white;
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+/* Premium Readable Refactoring */
+
+.input-field {
+  @apply w-full bg-white border border-[#ACB4C4]/20 rounded-xl p-4 text-[12px] outline-none transition-all focus:border-primary focus:ring-1 focus:ring-primary/20;
+}
+
+.btn-primary {
+  @apply bg-primary text-accent font-black py-3.5 px-8 rounded-xl text-[11px] transition-all hover:scale-102 hover:shadow-md active:scale-98 disabled:opacity-50 uppercase tracking-widest cursor-pointer;
+}
+
+.card-saas {
+  @apply bg-white rounded-[1.5rem] p-8 shadow-sm border border-[#ACB4C4]/20;
+}
+
+.card-glass {
+  @apply bg-white p-6 md:p-10 rounded-[2rem] shadow-xl border border-[#ACB4C4]/15;
+}
+
+/* Animations */
+
+.fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Global Refinements */
+html, body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+/* Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* slate-300 */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* slate-400 */
+}
+
+/* Touch & Utility Classes */
+.custom-scroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Responsive Grid & Containers */
+.container-responsive {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Chat & Nav Layout (Responsive Fixes) */
+.sidebar-nav {
+  /* Handled primarily via inline classes in CourseView but base styles here */
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+.sidebar-chat {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary/20 rounded-full hover:bg-secondary/40;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-nav, .sidebar-chat {
+    @apply shadow-2xl;
+  }
+}

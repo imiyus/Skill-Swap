@@ -1,0 +1,110 @@
+{
+  "common": {
+    "start": "Bepul boshlash",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "logout": "Chiqish",
+    "dashboard": "Panel",
+    "profile": "Profil",
+    "generate": "Yaratish",
+    "loading": "Yuklanmoqda...",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "home": "Bosh sahifa",
+    "finish": "Tugatish",
+    "openai_error": "OpenAI ulanish xatosi"
+  },
+  "welcome": {
+    "title": "Har qanday ko'nikmani<br />AI yordamida o'rganing.",
+    "subtitle": "Gemini 2.0 Flash tomonidan aynan sizning maqsadlaringiz uchun yaratilgan shaxsiy kurslar.",
+    "cta": "O'rganishni boshlash",
+    "cabinet": "Shaxsiy kabinetga",
+    "steps": "5 bosqich",
+    "curriculum": "O'quv dasturi",
+    "mentor": "Intellektual murabbiy",
+    "limitless": "Cheksiz imkoniyatlar",
+    "limitless_stat": "∞ ko'nikma",
+    "skills": {
+      "python": "Python",
+      "design": "UI Dizayn",
+      "marketing": "Marketing",
+      "photography": "Fotografiya",
+      "cooking": "Pazandachilik",
+      "chess": "Shaxmat"
+    }
+  },
+  "auth": {
+    "welcome_back": "Xush kelibsiz",
+    "subtitle_login": "Mahorat sari yo'lingizni davom ettiring",
+    "create_account": "Hisob yaratish",
+    "subtitle_register": "Skillswap hamjamiyatiga qo'shiling",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "name": "To'liq ism",
+    "no_account": "Hisobingiz yo'qmi?",
+    "has_account": "Hisobingiz bormi?",
+    "sign_in": "Kirish"
+  },
+  "onboarding": {
+    "title": "Bugun qaysi ko'nikmani<br />o'rganmoqchisiz?",
+    "subtitle": "Bizning AI-murabbiyimiz siz uchun noyob 5 bosqichli o'quv rejasini tuzadi.",
+    "placeholder": "Masalan: Vue 3 asoslari...",
+    "btn": "Boshlash",
+    "waiting": "Gemini orzularingizni tahlil qilmoqda...",
+    "creating": "Shaxsiy yo'nalish yaratilmoqda:"
+  },
+  "dashboard": {
+    "empty_title": "Javon bo'sh",
+    "empty_desc": "Yangi super kuchga tayyormisiz? Birinchi shaxsiy kursingizni yaratamiz.",
+    "create_btn": "Yangi kurs yaratish",
+    "your_learning": "Sizning o'qishingiz",
+    "continue_desc": "To'xtagan joyingizdan davom eting",
+    "reset_btn": "Kursni bekor qilish",
+    "ai_curriculum": "AI o'quv dasturi",
+    "xp": "Tajriba",
+    "streak": "Faollik",
+    "progress": "Progress",
+    "days": "kun",
+    "steps_count": "{count} Qadam",
+    "steps_progress": "{current} / {total} qadam"
+  },
+  "course": {
+    "route": "Yo'nalish",
+    "back_dashboard": "Panelga qaytish",
+    "step": "Qadam",
+    "complete_step": "Bosqichni yakunlash",
+    "ai_mentor": "AI Murabbiy",
+    "online": "Onlayn",
+    "chat_placeholder": "So'rang: 'Oddiyroq tushuntir'",
+    "chat_intro": "Salom! Men sizning AI-murabbiyingizman. Agar biror narsa murakkab tuyulsa, so'rang, men oddiy tushuntiraman."
+  },
+  "profile": {
+    "stat_xp": "{xp} Tajriba",
+    "stat_courses": "{count} kurs yakunlandi",
+    "stat_steps": "{count} bosqich yakunlandi",
+    "achievements": "Yutuqlar",
+    "badges_earned": "{earned} / {total} qo'lga kiritildi",
+    "activity": "Faollik",
+    "learner_status": "O'quvchi holati",
+    "status_desc": "Siz AI dohiysi bo'lish yo'lidasiz. Shunday davom eting!",
+    "next_level": "{level}-darajagacha progress",
+    "logout_btn": "Hisobdan chiqish",
+    "pro_learner": "Pro o'quvchi"
+  },
+  "badges": {
+    "first_step": { "name": "Birinchi qadam", "desc": "Birinchi o'quv bosqichini yakunlang" },
+    "ai_master": { "name": "AI Ustasi", "desc": "5 ta noyob kurs yarating" },
+    "streak_7": { "name": "7 kun uzluksiz", "desc": "Ketma-ket 7 kun kiring" },
+    "finisher": { "name": "Tugallovchi", "desc": "Bitta kursni to’liq tugating" },
+    "expert": { "name": "Ekspert", "desc": "Umumiy 5000 XP to’plang" },
+    "defender": { "name": "Himoyachi", "desc": "AI murbbiydan 10 marta foydalaning" }
+  },
+  "categories": {
+    "All": "Barcha kategoriyalar",
+    "Programming": "Dasturlash",
+    "Design": "Dizayn",
+    "Languages": "Tillar",
+    "Business": "Biznes",
+    "Art": "San'at"
+  }
+}
