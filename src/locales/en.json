@@ -50,7 +50,7 @@
     "subtitle": "Our AI mentor will create a unique 5-step learning plan for you.",
     "placeholder": "e.g., Vue 3 Basics...",
     "btn": "Launch",
-    "waiting": "Gemini is analyzing your dreams...",
+    "waiting": "Grok is analyzing your dreams...",
     "creating": "Creating a personalized route for:"
   },
   "dashboard": {

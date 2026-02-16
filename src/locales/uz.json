@@ -50,7 +50,7 @@
     "subtitle": "Bizning AI-murabbiyimiz siz uchun noyob 5 bosqichli o'quv rejasini tuzadi.",
     "placeholder": "Masalan: Vue 3 asoslari...",
     "btn": "Boshlash",
-    "waiting": "Gemini orzularingizni tahlil qilmoqda...",
+    "waiting": "Grok orzularingizni tahlil qilmoqda...",
     "creating": "Shaxsiy yo'nalish yaratilmoqda:"
   },
   "dashboard": {
