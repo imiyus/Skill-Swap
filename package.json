@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@huggingface/inference": "^4.13.12",
+    "@vercel/analytics": "^1.6.1",
     "axios": "^1.13.5",
     "lucide-vue-next": "^0.564.0",
     "pinia": "^3.0.4",
